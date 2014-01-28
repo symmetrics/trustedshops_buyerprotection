@@ -87,6 +87,10 @@ class Symmetrics_Buyerprotect_Helper_Data
 
         /* @var $cartItems Mage_Sales_Model_Mysql4_Quote_Item_Collection */
         $cartItems = $cart->getItems();
+
+        if(!is_object($cartItems)){
+            return false;
+        }
         /* @var $tsIdsSelect Varien_Db_Select */
         $tsIdsSelect = clone $cartItems->getSelect();
         $tsIdsSelect->where('product_type = ?', Symmetrics_Buyerprotect_Model_Type_Buyerprotect::TYPE_BUYERPROTECT);

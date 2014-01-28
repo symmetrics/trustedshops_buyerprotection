@@ -1,0 +1,21 @@
+build/app/etc/modules/Symmetrics_Buyerprotect.xml app/etc/modules/Symmetrics_Buyerprotect.xml
+
+build/app/code/community/Symmetrics/Buyerprotect app/code/community/Symmetrics/Buyerprotect
+
+build/app/design/adminhtml/default/default/template/buyerprotect app/design/adminhtml/default/default/template/buyerprotect
+build/app/design/adminhtml/default/default/layout/buyerprotect.xml app/design/adminhtml/default/default/layout/buyerprotect.xml
+build/app/design/frontend/base/default/template/buyerprotect app/design/frontend/default/default/template/buyerprotect
+build/app/design/frontend/base/default/layout/buyerprotect.xml app/design/frontend/default/default/layout/buyerprotect.xml
+
+build/js/symmetrics/* js/symmetrics/
+
+build/skin/adminhtml/default/default/css/buyerprotect.css skin/adminhtml/default/default/css/buyerprotect.css
+build/skin/adminhtml/default/default/images/buyerprotect skin/adminhtml/default/default/images/buyerprotect
+build/skin/frontend/base/default/css/buyerprotect.css skin/frontend/default/default/css/buyerprotect.css
+build/skin/frontend/base/default/images/buyerprotect skin/frontend/default/default/images/buyerprotect
+
+build/app/locale/pl_PL/Symmetrics_Buyerprotect.csv app/locale/pl_PL/Symmetrics_Buyerprotect.csv
+build/app/locale/de_DE/Symmetrics_Buyerprotect.csv app/locale/de_DE/Symmetrics_Buyerprotect.csv
+build/app/locale/en_UK/Symmetrics_Buyerprotect.csv app/locale/en_UK/Symmetrics_Buyerprotect.csv
+build/app/locale/es_ES/Symmetrics_Buyerprotect.csv app/locale/es_ES/Symmetrics_Buyerprotect.csv
+build/app/locale/fr_FR/Symmetrics_Buyerprotect.csv app/locale/fr_FR/Symmetrics_Buyerprotect.csv
