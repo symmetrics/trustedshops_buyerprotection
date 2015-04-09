@@ -29,8 +29,8 @@
  * the badge/widget is now generated via JS.
  */
 
-$this;
-/* @var $this Symmetrics_Buyprotect_Model_Setup */
+
+/* @var $this Symmetrics_Buyerprotect_Model_Setup */
 $adapter = $this->getConnection();
 $select = new Varien_Db_Select($adapter);
 $buyerprotectionDataPath = array(
