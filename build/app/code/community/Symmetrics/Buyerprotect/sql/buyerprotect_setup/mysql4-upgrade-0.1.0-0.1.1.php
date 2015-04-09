@@ -41,8 +41,8 @@ $emailTemplates = array(
 );
 
 foreach ($emailTemplates as $fileName => $template) {
-    $file = Mage::getBaseDir() . $templatePath . $fileName . $templateSuffix;
-    $content = file_get_contents($file);
+    $fullFileName = Mage::getBaseDir() . $templatePath . $fileName . $templateSuffix;
+    $content = file_get_contents($fullFileName);
     $template['template_text'] = $content;
 
     $this->createEmailTemplate($template['template_code'], $template);
